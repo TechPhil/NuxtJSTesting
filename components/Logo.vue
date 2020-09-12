@@ -14,6 +14,11 @@
     />
   </svg>
 </template>
+<script>
+export default {
+  name: "Logo"
+}
+</script>
 
 <style>
 .NuxtLogo {
