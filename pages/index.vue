@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
+      <Logo/>
       <h1 class="title">
         nuxttest
       </h1>
@@ -28,7 +28,12 @@
 </template>
 
 <script>
-export default {}
+import Logo from "~/components/Logo";
+export default {
+  components: {
+    Logo
+  }
+}
 </script>
 
 <style>
